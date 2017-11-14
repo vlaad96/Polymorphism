@@ -19,6 +19,7 @@ public:
 	}
 	void printHouse()const{
 
+		cout << "-- " << name <<" --" << endl;
 		cout << "Num. floors: " << floors << endl;
 		cout << "Num. inhabitants: " << inhabitants << endl;
 		cout << "Num. servants: " << servants << endl;

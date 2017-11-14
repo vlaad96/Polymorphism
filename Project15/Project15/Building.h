@@ -11,10 +11,7 @@ public:
 
 	virtual ~Building(){}
 
-	Building(char* name) {
-
-		this->name = name;
-	}
+	Building(char* name) :name(name) {};
 
 	char* getName()const { return name; }
 

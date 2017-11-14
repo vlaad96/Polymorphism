@@ -20,6 +20,7 @@ public:
 
     void printResources()const{
 	
+		cout << "-- " << name << " --" << endl;
 		cout << "Wood: " << wood << endl;
 		cout << "Rocks: " << rocks << endl;
 		cout << "Wheat: " << wheat << endl;

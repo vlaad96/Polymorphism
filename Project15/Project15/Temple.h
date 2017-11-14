@@ -19,6 +19,7 @@ public:
 
 	 void printTemple()const {
 
+		cout << "-- " << name << " --" << endl;
 		cout << "God: " << god << endl;
 		cout << "Num. priests: " << priests << endl;
 		cout << endl;
